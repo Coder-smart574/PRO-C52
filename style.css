@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    background-color: #000000; 
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: 20px
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.designborder{
+    border: 2px #40e0d0;
+    border-radius: 25px;
+    border-style:dotted;
+}
+
+body{
+    margin: 0px
+}
+
+a:link{
+    color: #00ffea;
+}
+
+a:visited{
+    color:#ff0000
+}
+
+a{
+    text-decoration: none
+}
+
+a:hover{
+    text-decoration: underline
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
